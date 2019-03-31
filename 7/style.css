@@ -1,0 +1,40 @@
+body #courses {
+  background: #1ec2ce; }
+body #szone {
+  background: blue; }
+  body #szone li:not(:last-child)::after {
+    border-color: white; }
+body .nav {
+  width: 250px;
+  padding-bottom: 0;
+  margin: 20px; }
+  body .nav h2 {
+    color: yellow;
+    font-size: 20px;
+    padding-left: 32px; }
+  body .nav ul {
+    list-style-type: none;
+    color: white;
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 0; }
+    body .nav ul li::before {
+      content: "";
+      padding-left: 30px;
+      margin: 1px;
+      display: block;
+      float: left; }
+    body .nav ul li:last-child::after {
+      content: "";
+      border: none; }
+  body .nav li::after {
+    content: "";
+    display: block;
+    height: 0px;
+    width: 99%;
+    border-style: dashed;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    margin: 10px 0 5px 0; }
+
+/*# sourceMappingURL=style.css.map */
