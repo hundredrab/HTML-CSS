@@ -1,0 +1,24 @@
+section {
+    margin: 10px;
+    .item {
+        .name{
+            font-size: 17px;
+            margin-top: 5px;
+        }
+        .price {
+            &:before {
+                content: "The price is:";
+            }
+        }
+    }
+    button {
+        background-color: green;
+        color: white;
+        border: none;
+        display: inline-block;
+        text-align: center;
+        padding: 6px 10px;
+        border-radius: 5px;
+        margin: 10px 10px 10px 0;
+    }
+}
