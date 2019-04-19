@@ -1,5 +1,16 @@
 #about {
     margin: 10px;
+    div{
+        padding-bottom: 30px;
+        &:not(:first-child){
+            @media (min-width: 768px) {
+                border-left: 1px dotted #a9a9a9;
+            }
+            @media (max-width: 767px) {
+                border-top: 1px dotted #a9a9a9;
+            }
+        }
+    }
     button {
         background-color: darkblue;
         color: white;
